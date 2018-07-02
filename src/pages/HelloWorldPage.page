@@ -1,0 +1,24 @@
+<apex:page showHeader="false" sidebar="false" controller="ApexAngularHelloWorld">
+	<html ng-app="myApp">
+        <head>
+            <title>Hello World Page</title>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" /> 
+            <script type="text/javascript">
+                var app = angular.module('myApp', []);
+                app.controller('accountCtrl', function($scope) {
+                    $scope.data = JSON.parse('{!dataset}');
+                })
+                
+            </script>
+        </head>
+        <body ng-controller="accountCtrl">
+            <ul ng-repeat="account in data">
+                <li>{{account.Id}}</li>
+                <li>{{account.Name}}</li>
+            </ul>
+        </body>
+    </html>
+</apex:page>

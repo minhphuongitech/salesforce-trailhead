@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>VfDemoPage</members>
+		<members>HelloWorldPage</members>
+		<name>ApexPage</name>
+	</types>
+	<types>
+		<members>ApexAngularDemo</members>
+		<members>ApexAngularHelloWorld</members>
+		<name>ApexClass</name>
+	</types>
+	<version>36.0</version>
+</Package>

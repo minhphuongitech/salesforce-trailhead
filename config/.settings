@@ -1,0 +1,17 @@
+{
+    "projectName": "Trailhead",
+    "username": "phuong@brave-bear-263760.com",
+    "id": "6c6816f0-7c7c-11e8-a782-79a15dab3f19",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://brave-bear-263760-dev-ed.my.salesforce.com",
+    "workspace": "C:\\Users\\MinhPhuong\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}
