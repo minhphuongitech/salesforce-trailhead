@@ -2,6 +2,7 @@ public with sharing class ApexAngularDemo {
 	public String data{get;set;}
 	public ApexAngularDemo() {
 		 list<dataset> data1 = new List<dataset>();
+ list<dataset> data2 = new List<dataset>();
 		    for(Account acc:[Select Name, Id from Account])
 		{
 			dataset ob = new dataset();
